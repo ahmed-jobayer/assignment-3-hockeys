@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hockey’s</title>
     <!-- tailwind and daisy ui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -23,18 +23,6 @@
       src="https://kit.fontawesome.com/1090f7f9e3.js"
       crossorigin="anonymous"
     ></script>
-    <!-- for custom color -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
     <!-- raw css -->
     <style>
       .font-manrope {
@@ -70,6 +58,7 @@
           </button>
         </div>
       </nav>
+      <!-- banner section -->
       <section>
         <div class="carousel w-full mt-14">
           <div
@@ -146,9 +135,13 @@
         <div
           class="flex-col flex justify-between gap-40 items-center lg:flex-row"
         >
-        <!-- progress bar 1 -->
+          <!-- progress bar 1 -->
           <div class="text-center">
-            <div class="radial-progress text-red-600" style="--value: 87" role="progressbar" >
+            <div
+              class="radial-progress text-red-600"
+              style="--value: 87"
+              role="progressbar"
+            >
               87%
             </div>
             <h3 class="text-[#131318] font-semibold text-xl">
@@ -160,7 +153,11 @@
           </div>
           <!-- progress bar 2 -->
           <div class="text-center">
-            <div class="radial-progress text-emerald-500" style="--value: 95" role="progressbar">
+            <div
+              class="radial-progress text-emerald-500"
+              style="--value: 95"
+              role="progressbar"
+            >
               95%
             </div>
             <h3 class="text-[#131318] font-semibold text-xl">
@@ -172,7 +169,11 @@
           </div>
           <!-- progress bar 3 -->
           <div class="text-center">
-            <div class="radial-progress text-yellow-400" style="--value: 90" role="progressbar">
+            <div
+              class="radial-progress text-yellow-400"
+              style="--value: 90"
+              role="progressbar"
+            >
               90%
             </div>
             <h3 class="text-[#131318] font-semibold text-xl">
@@ -184,7 +185,11 @@
           </div>
           <!-- progress bar 4 -->
           <div class="text-center">
-            <div class="radial-progress text-blue-400" style="--value: 80" role="progressbar">
+            <div
+              class="radial-progress text-blue-400"
+              style="--value: 80"
+              role="progressbar"
+            >
               80%
             </div>
             <h3 class="text-[#131318] font-semibold text-xl">
@@ -193,6 +198,71 @@
             <p class="text-[#0d0d1263] font-medium text-base">
               Amet consectetur. Condimentum dignissim adipiscing .
             </p>
+          </div>
+        </div>
+      </section>
+      <!-- program section -->
+      <section class="my-24 text-center">
+        <div>
+          <h2 class="text-[#131318] font-semibold text-4xl pb-6">
+            Program Sections
+          </h2>
+          <p class="text-[#0d0d1263] font-medium text-base pb-20">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="sm:grid-cols-1 lg:grid-cols-2 grid gap-6">
+          <!-- card----1 -->
+          <div class="card bg-base-100 image-full">
+            <figure>
+              <img src="Images/2.png" alt="" class="w-full" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title text-white text-3xl font-extrabold lg:mt-24">Junior Program</h2>
+              <p class="text-white text-base font-medium text-start">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions ">
+                <button class="btn text-xl px-6 py-4 h-auto bg-[#FF4240] text-white rounded-lg">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-base-100 image-full">
+            <figure>
+              <img src="Images/3.png" alt="" />
+            </figure>
+            <div class="card-body  ">
+              <h2 class="card-title text-white text-3xl font-extrabold lg:mt-24">Teenager Program</h2>
+              <p class="text-white text-base font-medium text-start">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn text-xl px-6 py-4 h-auto bg-[#FF4240] text-white rounded-lg">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-base-100 image-full lg:col-span-2">
+            <figure>
+              <img src="Images/4.png" alt="" class="lg:w-full" />
+            </figure>
+            <div class="card-body  ">
+              <h2 class="card-title text-white text-3xl font-extrabold lg:mt-52">Professional Program</h2>
+              <p class="text-white text-base font-medium text-start max-w-96">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn text-xl px-6 py-4 h-auto bg-[#FF4240] text-white rounded-lg">Register Now!</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
